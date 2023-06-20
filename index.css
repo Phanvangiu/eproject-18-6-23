@@ -116,14 +116,14 @@
     margin-left: 60%;
 }
 #background{
-    background-image: url("/Pictures/background.jpg");
+    background-image: url("Pictures/background.jpg");
     min-height: 100vh;
 }
 #button{
     margin: 0px 10px 10px 10px;
 }
 .feed{
-    background-image: url("/Pictures/mermaid.jpg");
+    background-image: url("Pictures/mermaid.jpg");
     height: 100vh;
 }
 .formfeedback{
