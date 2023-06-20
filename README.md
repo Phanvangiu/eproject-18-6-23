@@ -1,6 +1,8 @@
 # eProject - Nexus Aquarium
 #
-Center name: FPT-Aptech - HCMC - T1.2302.E1
+Center name: FPT-Aptech - HCMC 
+
+Class:T1.2302.E1
 
 ==============================> Group 4 <==============================
 #
