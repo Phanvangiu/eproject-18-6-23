@@ -91,7 +91,7 @@
             <!-- <input type="text" ng-model="id"> -->
           <!-- </div> -->
             <div class="btn-group" role="group" aria-label="Basic example">
-              <input type="search" ng-model="id" placeholder="Search Enter">                            
+              <input type="search" ng-model="searchId" placeholder="Search Enter">                            
               <button class="btn btn-primary"><i class="fa-solid fa-magnifying-glass fa-xl"></i></button>
               <i class="fa-regular fa-hand-back-point-right fa-shake fa-2xl" style="color: #f0660a;"></i>
             </div><br>
@@ -104,7 +104,7 @@
                         <th>Temperament</th>
                         <th>Compatibility</th>
                     </tr>
-                    <tr ng-repeat="item in data|orderBy:sortType:sortReverse|filter:id">
+                    <tr ng-repeat="item in data|filter: {id: searchId}">
                         <td>{{$index+1}}</td>
                         <td>{{item.id}}</td>
                         <td>{{item.name}}</td>
